@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:todolist/screen/main_screen.dart';
+import 'package:todolist/screen/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,23 +14,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: const MainScreen(),
+      initialRoute: '/', //최초 ROUTE
+      routes: {
+        '/': (context) => SplashScreen(),
+        '/main': (context) => MainScreen(),
+      },
     );
   }
 }
-
-class MainScreen extends StatelessWidget {
-  const MainScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(title:Text('나의 첫 앱'),), body:Text('hello world!'),);
-  }
-}
-
-
