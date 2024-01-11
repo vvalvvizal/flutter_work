@@ -1,4 +1,4 @@
-name: todolist
+name: myfirstapp
 description: "A new Flutter project."
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -22,6 +22,8 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
+  assets:
+    - assets/
 
   uses-material-design: true
 
