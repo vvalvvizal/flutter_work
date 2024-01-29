@@ -6,6 +6,12 @@
       <excludeFolder url="file://$MODULE_DIR$/todolist/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/todolist/build" />
       <excludeFolder url="file://$MODULE_DIR$/todolist/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/myfirstapp/build" />
+      <excludeFolder url="file://$MODULE_DIR$/myfirstapp/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/myfirstapp/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/todolistapp/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/todolistapp/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/todolistapp/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
